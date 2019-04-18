@@ -1,0 +1,13 @@
+<appengine-web-app xmlns="http://appengine.google.com/ns/1.0">
+    <version>1</version>
+    <threadsafe>true</threadsafe>
+    <runtime>java8</runtime>
+    <service>app-engine-service</service>
+    <system-properties>
+        <property name="java.util.logging.config.file" value="WEB-INF/classes/logging.properties"/>
+    </system-properties>
+    <instance-class>F2</instance-class>
+    <automatic-scaling>
+        <max-instances>8</max-instances>
+    </automatic-scaling>
+</appengine-web-app>
